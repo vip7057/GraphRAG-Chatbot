@@ -7,7 +7,7 @@ from langchain_core.documents import Document
 from langchain_surrealdb.experimental.surrealdb_graph import SurrealDBGraph
 from langchain_surrealdb.vectorstores import SurrealDBVectorStore
 
-from .definitions import Symptom, Symptoms
+from definitions import Symptom, Symptoms
 
 
 def ingest(vector_store: SurrealDBVectorStore, graph_store: SurrealDBGraph) -> None:

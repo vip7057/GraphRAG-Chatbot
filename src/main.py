@@ -3,8 +3,8 @@ from langchain_ollama import ChatOllama
 
 from langchain_surrealdb.experimental.graph_qa.chain import SurrealDBGraphQAChain
 
-from .ingest import ingest as ingest_handler
-from .utils import ask, get_document_names, init_stores, vector_search
+from ingest import ingest as ingest_handler
+from utils import ask, get_document_names, init_stores, vector_search
 
 ns = "langchain"
 db = "example-graph"
